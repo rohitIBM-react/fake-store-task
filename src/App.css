@@ -1,0 +1,7 @@
+/* Ensure the app container takes full screen dimensions */
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* gap: 3px; */
+}
