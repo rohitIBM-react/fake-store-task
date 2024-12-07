@@ -6,8 +6,6 @@ import Details from "./components/Details";
 function App() {
   return (
     <div className="app-container">
-      <br />
-      <hr />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/details/:id" element={<Details />} />
